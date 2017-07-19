@@ -9,8 +9,21 @@
     top: 0;
 }
 
+.navbar-default {
+    border-color: transparent;
+}
+
 .navbar {
     margin-bottom: 0px;
+    float: none;
+}
+
+.nav-head {
+    padding-left: 35%;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
 }
 
 .spacer {
@@ -56,4 +69,8 @@
 
 .signature:link {
     color: #fff;
+}
+
+.nav-logo {
+    height: 100%;
 }
