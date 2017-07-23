@@ -74,3 +74,17 @@
 .nav-logo {
     height: 100%;
 }
+
+.set-image-size > div > div > div > img {
+    width: 150px;
+}
+
+.set-image-size > div > div {
+    min-height: 150px;
+}
+
+.set-image-size > div > h3 {
+     padding: 25px 15px; 
+    text-align: center;
+    font-family: 'Anton';
+}
