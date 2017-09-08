@@ -30,6 +30,10 @@
     padding: 15px;
 }
 
+.hideme {
+      display: none;
+}
+
 .spacer {
      padding: 60px 15%; 
 }
