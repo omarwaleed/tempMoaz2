@@ -3,6 +3,11 @@
   src: url("../fonts/Anton-Regular.ttf") format("truetype");
 }
 
+@font-face{
+  font-family: "Bowlby";
+  src: url("../fonts/BowlbyOne-Regular.ttf") format("truetype");
+}
+
 .nav-color {
     background: rgba(220,220,220,0.2);
     border-color: transparent;
@@ -32,6 +37,16 @@
 
 .hideme {
       display: none;
+}
+
+.wood-subtitles {
+    font-size: 26px;
+    margin: 40px 0px;
+}
+
+.wood-content {
+    padding: 20px 0px;
+    font-size: 16px;
 }
 
 .spacer {
