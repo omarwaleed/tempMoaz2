@@ -11,7 +11,7 @@ app.get('/', function(req, res){
 	res.sendFile(Path.join(__dirname, 'public/home.html'));
 })
 
-app.listen(3000, function(err){
+app.listen(process.env.PORT || 3000, function(err){
 	if(err){
 		throw err;
 	}
