@@ -34,6 +34,18 @@
 .dropdown-menu {
     padding: 15px;
 }
+/* for submenu  */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+/* end  */
 
 .hideme {
       display: none;
@@ -62,6 +74,10 @@
     font-family: "Anton"
 }
 
+.product-title {
+    margin-bottom: 40px;
+}
+
 .carousel-inner > div > img {
     max-height: 420px;
     width: 100%;
@@ -69,10 +85,15 @@
 
 .footer {
     min-height: 100px;
-    padding: 100px;
+    padding: 100px 0px;
     background: #232323;
     bottom: 0;
     color: #ccc;
+}
+
+.contact-upper-padding {
+    padding-top: 60px;
+    margin-bottom: 60px;
 }
 
 .img-handle {
@@ -91,7 +112,8 @@
 }
 
 .signature:link {
-    color: #fff;
+    /* color: #fff; */
+    color: transparent;
 }
 
 .nav-logo {
