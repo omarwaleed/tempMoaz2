@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>United: Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <style>
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        h1 {
+            font-weight: bold;
+            color: darkseagreen
+        }
+
+        ul>li>a {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        .my-slick {
+            height: 200px;
+            margin: auto 20px;
+        }
+
+        .dash-type > li:before {
+            content: "-- ";
+        }
+
+        .dash-type {
+            list-style-type: none;
+        }
+
+        .pic {
+            max-height: 200px;
+            max-width: 240px;
+            margin: 10px 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default nav-color">
+        <div class="container-fluid nav-head">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/united_edit.png" alt="United Logo" class="nav-logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <!-- <li><a href="products.html">Products</a></li> -->
+                    <li class="dropdown active">
+                        <a class="dropdown-toggle" type="button" data-toggle="dropdown">Products
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="#" class="brazilian">Brazilian Film Faced Plywood <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="vimasa.html">Vimasa</a></li>
+                            <li><a href="rioclaro.html">Rio Claro</a></li>
+                            <li><a href="miraluz.html">Miraluz</a></li>
+                            <li><a href="madeirit.html">Madeirit</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="chinese.html">Chinese Film Faced Plywood</a></li>
+                    <li><a href="sawn.html">Sawn Timber</a></li>
+                    <li><a href="h2o.html">H20 Formwork Beams</a></li>
+                </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.brazilian').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </nav>
+    <div style="width: 100%; height: 350px; background: url('images/content/c1.jpg'); background-size: cover; background-position: center 30%;"></div>
+    <div class="container sm-spacer">
+         <h1 class="product-title text-center">H2O Formwork Beams</h1> 
+        <div class="text-center">
+            <div>
+                <!-- <h4>Construction Dimension timber</h4> -->
+                <p>We carry Doka Form -on H20 beams for advanced concrete formwork in Different lengths
+                </p>
+                <div class="container-fluid text-center">
+                    <!-- <img src="images/sawn/formwork-beam-form-on-smartbeam-20 (1).jpg" alt="" class="pic">
+                    <img src="images/sawn/formwork-beam-form-on-smartbeam-20.jpg" alt="" class="pic">
+                    <img src="images/sawn/formwork-beam-form-on-smartbeam-20 (2).jpg" alt="" class="pic">
+                    <br>
+                    <img src="images/sawn/form-on_logo.jpg" alt="" class="pic">
+                    <img src="images/sawn/download (1).png" alt="" class="pic"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="col-sm-4 contact-upper-padding">
+                <!-- Main Office  - 24 B anwar el mufti street Nasr city, Cairo <br>
+                Phone : (+2) (02) 22603046 <br>
+                For All enquiries and orders please contact :<br>
+                Mr. Ahmed Hamdy at  Cell : 0100-100-4940<br>
+                Mr. Abd El Ghani Ramadan : 0120-400-4113<br> -->
+                Head Office - 24 B Anwar el Mofti Street Nasr city, Cairo <br>
+                Phone/Fax : (+2) (02) <a href="tel:+20222603046">22603046</a> - <a href="tel:+20222603047">22603047</a>- <a href="22603048">22603048</a> <br>
+                Mobile: <a href="tel:+201223922594">01223922594</a><br>
+                For Sales and Other Services Please Contact us at sales@utsc.com.eg<br>
+                Or our Direct sales number : <a href="tel:+201227888340">01227888340</a> <br>
+            </div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13813.223903789703!2d31.328512027784978!3d30.05676276004314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e41dc3790cd%3A0x3b2f8f0d09bda375!2sUnited+trading+and+supply+company!5e0!3m2!1sen!2seg!4v1505657004485" width="550" height="400" frameborder="0" style="border:0; max-width: 100%;" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="text-center" style="margin-top: 100px;">
+            <p>Copy Rights United&#169; 2017</p>
+            <p style="color: transparent;">Made by <a href="http://www.omarwaleed.com" class="signature">Omar Waleed</a></p> 
+        </div>
+    </div>
+</body>
+
+</html>
