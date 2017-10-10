@@ -23,6 +23,10 @@
     float: none;
 }
 
+.navlink {
+    color: white;
+}
+
 .nav-head {
     padding-left: 35%;
 }
