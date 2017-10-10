@@ -74,6 +74,11 @@
     padding: 40px 30px;
 }
 
+.ssm-spacer {
+    margin-top: 10px;
+    padding: 0px 30px;
+}
+
 .sm-spacer > h3 {
     font-family: "Anton"
 }
